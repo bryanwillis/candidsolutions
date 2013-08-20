@@ -1,0 +1,65 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+
+  #top #header .social_bookmarks > li a {
+    border-right: 1px solid #333;
+}
+
+  #header_meta {
+    background-image: linear-gradient(to top,#373737 0,#464646 5px);
+}
+  
+  #top #header .social_bookmarks > li {
+    border-right: 1px solid #555;
+}
+
+  #top #header .social_bookmarks li:last-child {
+    border-right: none;
+}
+
+
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+  
+  /* top header css */
+  
+  #top #header .social_bookmarks > li a {
+    border-right: 1px solid #333;
+}
+
+  #header_meta {
+    background-image: linear-gradient(to top,#373737 0,#464646 5px);
+}
+  
+  #top #header .social_bookmarks > li {
+    border-right: 1px solid #555;
+}
+
+  #top #header .social_bookmarks li:last-child {
+    border-right: none;
+}
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+}
+
+
+  
